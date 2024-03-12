@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/kanda_midterm_exam_part3/build" />
+      <excludeFolder url="file://$MODULE_DIR$/kanda_midterm_exam_part3/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/kanda_midterm_exam_part3/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/kanda_finalexam_843305_part1/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/kanda_finalexam_843305_part1/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/kanda_finalexam_843305_part1/build" />
+      <excludeFolder url="file://$MODULE_DIR$/manee_5829_final_exam_2023/build" />
+      <excludeFolder url="file://$MODULE_DIR$/manee_5829_final_exam_2023/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/manee_5829_final_exam_2023/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/kanda_midterm_exam_part2/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/kanda_midterm_exam_part2/build" />
+      <excludeFolder url="file://$MODULE_DIR$/kanda_midterm_exam_part2/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/kanda_midterm_exam_part1/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/kanda_midterm_exam_part1/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/kanda_midterm_exam_part1/build" />
+      <excludeFolder url="file://$MODULE_DIR$/manee_5829_midterm_exam_2023/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/manee_5829_midterm_exam_2023/build" />
+      <excludeFolder url="file://$MODULE_DIR$/manee_5829_midterm_exam_2023/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/kanda_finalexam_813702/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/kanda_finalexam_813702/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/kanda_finalexam_813702/build" />
+      <excludeFolder url="file://$MODULE_DIR$/manee_5829_final_exam_2024/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/manee_5829_final_exam_2024/build" />
+      <excludeFolder url="file://$MODULE_DIR$/manee_5829_final_exam_2024/.dart_tool" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Dart SDK" level="project" />
+    <orderEntry type="library" name="Dart Packages" level="project" />
+  </component>
+</module>

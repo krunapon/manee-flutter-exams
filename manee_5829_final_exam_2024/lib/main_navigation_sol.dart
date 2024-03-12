@@ -37,7 +37,7 @@ class HomeScreenState extends State<HomeScreen> {
     );
     setState(() {
       // update the result with the format
-      result = 'Square root of $number is: $computedResult';
+      result = 'Square root of $number is $computedResult';
     });
   }
 

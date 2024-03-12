@@ -86,7 +86,7 @@ class ComputeScreenState extends State<ComputeScreen> {
     computedSquareRoot = sqrt(widget.number);
   }
 
-  @override
+  /*@override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
@@ -94,14 +94,14 @@ class ComputeScreenState extends State<ComputeScreen> {
       ),
       body: Center(
         child: Text(
-          'Square root of ${widget.number} is $computedSquareRoot',
-          style: const TextStyle(fontSize: 20),
+          // 5. Display text 'Square root of <number> is <result>'
+         // style: const TextStyle(fontSize: 20),
         ),
       ),
-      floatingActionButton: FloatingActionButton(
-        // 5. Go back to the previous screen and send the result back
-        child: const Icon(Icons.check),
-      ),
+      // floatingActionButton: FloatingActionButton(
+        // 6. Go back to the previous screen and send the result back
+        // child: const Icon(Icons.check),
+     // ),
     );
-  }
+  }*/
 }
