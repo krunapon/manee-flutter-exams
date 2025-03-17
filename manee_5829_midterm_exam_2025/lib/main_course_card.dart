@@ -1,4 +1,4 @@
-// main.dart
+// main_profile_card.dart
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,9 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Course Cards Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+      theme: ThemeData(primarySwatch: Colors.blue),
       home: const CourseScreen(),
       debugShowCheckedModeBanner: false,
     );
@@ -27,9 +25,7 @@ class CourseScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('My Courses'),
-      ),
+      appBar: AppBar(title: const Text('My Courses')),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: CourseCard(
@@ -81,26 +77,17 @@ class CourseCard extends StatelessWidget {
           const SizedBox(height: 8),
           Text(
             courseName,
-            style: const TextStyle(
-              fontSize: 18,
-              color: Colors.black,
-            ),
+            style: const TextStyle(fontSize: 18, color: Colors.black),
           ),
           const SizedBox(height: 8),
           Text(
             'Instructor: $instructor',
-            style: const TextStyle(
-              fontSize: 16,
-              color: Colors.black87,
-            ),
+            style: const TextStyle(fontSize: 16, color: Colors.black87),
           ),
           const SizedBox(height: 4),
           Text(
             'Credits: $credits',
-            style: const TextStyle(
-              fontSize: 16,
-              color: Colors.black87,
-            ),
+            style: const TextStyle(fontSize: 16, color: Colors.black87),
           ),
         ],
       ),

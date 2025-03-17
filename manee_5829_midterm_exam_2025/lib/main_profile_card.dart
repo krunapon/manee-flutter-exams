@@ -1,4 +1,4 @@
-// main.dart
+// main_profile_card.dart
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,9 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Profile Card Demo',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+      theme: ThemeData(primarySwatch: Colors.blue),
       home: const ProfileScreen(),
     );
   }
@@ -27,9 +25,7 @@ class ProfileScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Profile Card'),
-      ),
+      appBar: AppBar(title: const Text('Profile Card')),
       body: const Center(
         child: ProfileCard(
           name: 'Manee Jaidee',
@@ -60,9 +56,7 @@ class ProfileCard extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.start,
         children: [
-          Image(
-            image: AssetImage('images/profile.png'),
-          ),
+          Image(image: AssetImage('images/profile.png')),
           SizedBox(height: 30),
           Text(
             name,

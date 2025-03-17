@@ -8,7 +8,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:manee_5829_midterm_exam_2023/main.dart';
+import 'package:manee_5829_midterm_exam_2023/main_profile_card.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {

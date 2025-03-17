@@ -1,4 +1,4 @@
-// main.dart
+// main_profile_card.dart
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,9 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Profile Card Demo',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+      theme: ThemeData(primarySwatch: Colors.blue),
       home: ProfileScreen(),
     );
   }
@@ -27,40 +25,38 @@ class ProfileScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(title: const Text('Profile')),
-        body: Container(
-          padding: EdgeInsets.only(top: 100),
-          child: Column(
-            // Column is needed to arrange elements vertically
-            mainAxisAlignment: MainAxisAlignment.start,
-            children: [
-              const CircleAvatar(
-                radius: 100,
-                backgroundImage: AssetImage('images/profile.png'),
-              ),
-              const SizedBox(height: 20),
-              const Text(
-                'Manee Jaidee',
-                style: TextStyle(
-                  fontSize: 30,
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-              const Text('Software Developer', style: TextStyle(fontSize: 30)),
-              const SizedBox(height: 40),
-              Row(
-                // Row for horizontal arrangement of skills
-                mainAxisAlignment:
-                    MainAxisAlignment.spaceAround, // Center the skills
-                children: [
-                  _buildSkillChip('Flutter'),
-                  _buildSkillChip('Dart'),
-                  _buildSkillChip('UI'),
-                ],
-              ),
-            ],
-          ),
-        ));
+      appBar: AppBar(title: const Text('Profile')),
+      body: Container(
+        padding: EdgeInsets.only(top: 100),
+        child: Column(
+          // Column is needed to arrange elements vertically
+          mainAxisAlignment: MainAxisAlignment.start,
+          children: [
+            const CircleAvatar(
+              radius: 100,
+              backgroundImage: AssetImage('images/profile.png'),
+            ),
+            const SizedBox(height: 20),
+            const Text(
+              'Manee Jaidee',
+              style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+            ),
+            const Text('Software Developer', style: TextStyle(fontSize: 30)),
+            const SizedBox(height: 40),
+            Row(
+              // Row for horizontal arrangement of skills
+              mainAxisAlignment:
+                  MainAxisAlignment.spaceAround, // Center the skills
+              children: [
+                _buildSkillChip('Flutter'),
+                _buildSkillChip('Dart'),
+                _buildSkillChip('UI'),
+              ],
+            ),
+          ],
+        ),
+      ),
+    );
   }
 
   Widget _buildSkillChip(String label) {
